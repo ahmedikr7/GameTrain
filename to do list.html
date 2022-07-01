@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Day-1</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <script>
+        function myFunction(){
+        
+            document.getElementById("list").innerHTML = "See the change";
+        }
+        
+        
+        </script>
+</head>
+<body>
+
+    
+
+    <div class = "image-1"> 
+        <!-- <img class ="image" src= > -->
+        <img class="image" src="https://media.istockphoto.com/vectors/clipboard-witch-checklist-wishlist-line-icon-editable-stroke-pixel-vector-id1138356518?k=20&m=1138356518&s=612x612&w=0&h=Y1NC58MY9re_KMivDgfEz0xXw1eV5YWKdQZfvSOuu9c=" alt="Image">
+    </div>
+<hr>
+
+    <div class = "aligner">
+        <input id ="t_field" type = "text" required placeholder="Enter your task for the day:">
+        <button type="button" class="button" onclick="myFunction()">Add Task</button>
+    </div>
+    
+    <hr>
+    
+    <div>
+        <p id="list">this should get replaced</p>
+    </div>
+    
+   
+</body>
+</html>
